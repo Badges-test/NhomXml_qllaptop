@@ -12,6 +12,7 @@ namespace XML_CuoiKi.Models
         public void TaoXML()
         {
             connect.TaoXML("NguoiDung");
+            connect.TaoXML("DanhMucLaptop");
         }
     }
 }
