@@ -66,6 +66,7 @@
     <Compile Include="Models\connect.cs" />
     <Compile Include="Models\DanhMuc.cs" />
     <Compile Include="Models\HeThong.cs" />
+    <Compile Include="Models\Laptop.cs" />
     <Compile Include="Models\Main.cs" />
     <Compile Include="Models\NguoiDung.cs" />
     <Compile Include="UI\Danhmuclaptop.cs">

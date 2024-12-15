@@ -31,9 +31,13 @@ namespace XML_CuoiKi.Models
         {
             //Xóa toàn bộ dữ liệu các bảng
             Fxml.InsertOrUpDateSQL("delete from NguoiDung");
+            Fxml.InsertOrUpDateSQL("delete from Laptop");
+            Fxml.InsertOrUpDateSQL("delete from DanhMucLaptop");
 
             //Cập nhập toàn bộ dữ liệu các bảng
             CapNhapTungBang("NguoiDung");
+            CapNhapTungBang("Laptop");
+            CapNhapTungBang("DanhMucLaptop");
         }
     }
 }
