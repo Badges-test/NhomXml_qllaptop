@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using XML_CuoiKi.UI;
 
 namespace XML_CuoiKi
 {
@@ -62,7 +63,7 @@ namespace XML_CuoiKi
 
         private void Home_Load(object sender, EventArgs e)
         {
-            ShowControl(new Laptop());
+            ShowControl(new TrangChu());
 
         }
 
@@ -76,6 +77,16 @@ namespace XML_CuoiKi
         {
             ShowControl(new Nhacungcap());
 
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ShowControl(new TrangChu());
         }
     }
 }

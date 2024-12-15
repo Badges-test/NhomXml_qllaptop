@@ -44,3 +44,4 @@ D:\Documents\124-SPKT\124CNX01-CongNgheXML\cuoiki\NhomXml_qllaptop\XML_CuoiKi\ob
 D:\Documents\124-SPKT\124CNX01-CongNgheXML\cuoiki\NhomXml_qllaptop\XML_CuoiKi\obj\Debug\XML_CuoiKi.exe
 D:\Documents\124-SPKT\124CNX01-CongNgheXML\cuoiki\NhomXml_qllaptop\XML_CuoiKi\obj\Debug\XML_CuoiKi.pdb
 D:\Documents\124-SPKT\124CNX01-CongNgheXML\cuoiki\NhomXml_qllaptop\XML_CuoiKi\obj\Debug\XML_CuoiKi.XemHoaDon.resources
+D:\Documents\124-SPKT\124CNX01-CongNgheXML\cuoiki\NhomXml_qllaptop\XML_CuoiKi\obj\Debug\XML_CuoiKi.UI.TrangChu.resources

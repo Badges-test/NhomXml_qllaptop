@@ -48,6 +48,7 @@
             this.btn_Danhmuc = new System.Windows.Forms.Button();
             this.btn_laptop = new System.Windows.Forms.Button();
             this.Panel_navigation = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -92,7 +93,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(1285, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.Size = new System.Drawing.Size(47, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "quyền";
             // 
@@ -102,7 +103,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(1124, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 16);
+            this.label1.Size = new System.Drawing.Size(50, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "Họ tên";
             // 
@@ -119,6 +120,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(143)))), ((int)(((byte)(160)))));
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.mainPanel);
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.panel4);
@@ -153,10 +155,11 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Location = new System.Drawing.Point(32, 549);
+            this.panel4.Location = new System.Drawing.Point(32, 609);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(170, 2);
             this.panel4.TabIndex = 3;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // btn_nguoidung
             // 
@@ -202,7 +205,7 @@
             this.button9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(41, 590);
+            this.button9.Location = new System.Drawing.Point(32, 617);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(181, 42);
             this.button9.TabIndex = 2;
@@ -306,6 +309,24 @@
             this.Panel_navigation.TabIndex = 2;
             this.Panel_navigation.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel_navigation_Paint);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(6, 515);
+            this.button1.Margin = new System.Windows.Forms.Padding(30);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(238, 66);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "SQL <-> XML";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -346,5 +367,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.Panel Panel_navigation;
+        private System.Windows.Forms.Button button1;
     }
 }
