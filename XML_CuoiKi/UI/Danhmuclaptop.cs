@@ -55,7 +55,7 @@ namespace XML_CuoiKi
             string TenDanhMuc = tb_tenDanhMuc.Text;
             string MoTa = tb_moTa.Text;
             dm.themDM(MaDanhMuc, TenDanhMuc, MoTa);
-            MessageBox.Show("Thêm người dùng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Thêm danh mục thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Danhmuclaptop_Load(sender, e); // Cập nhật lại DataGridView
         }
 
@@ -89,7 +89,7 @@ namespace XML_CuoiKi
             try
             {
                 dm.xoaDM(MaDanhMuc);
-                MessageBox.Show("Xoá người danh mục công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Xoá danh mục thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Danhmuclaptop_Load(sender, e); // Cập nhật lại DataGridView
             }
             catch (Exception ex)

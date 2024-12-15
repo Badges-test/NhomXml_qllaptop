@@ -38,14 +38,11 @@ namespace XML_CuoiKi.Models
 
         public void suaDM(string MaDanhMuc, string TenDanhMuc, string MoTa)
         {
-            // Tạo nội dung XML của nút mới
             string noiDung =
 
                             "<MaDanhMuc>" + MaDanhMuc + "</MaDanhMuc>" +
                             "<TenDanhMuc>" + TenDanhMuc + "</TenDanhMuc>" +
                             "<MoTa>" + MoTa + "</MoTa>";
-
-            // Gọi hàm `Sua` trong lớp `connect`
             Fxml.Sua("DanhMucLaptop.xml", "_x0027_DanhMucLaptop_x0027_", "MaDanhMuc", MaDanhMuc, noiDung);
         }
 

@@ -69,6 +69,7 @@
     <Compile Include="Models\Laptop.cs" />
     <Compile Include="Models\Main.cs" />
     <Compile Include="Models\NguoiDung.cs" />
+    <Compile Include="Models\NhaCungCap.cs" />
     <Compile Include="UI\Danhmuclaptop.cs">
       <SubType>UserControl</SubType>
     </Compile>
